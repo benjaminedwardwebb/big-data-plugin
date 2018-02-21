@@ -112,29 +112,35 @@ public class WinProcessTest {
   public void tryToKillChildProcessIfItNotExists() {
     String childProcessPIDs = " ";
     Process process = null;
+    int parentPID;
     WinProcess winProcess = null;
     List<String> cmds = new ArrayList<>();
     cmds.add( "cmd.exe" );
     ProcessBuilder processBuilder = new ProcessBuilder( cmds );
     try {
       process = processBuilder.start();
-      winProcess = new WinProcess( WinProcess.getPID( process ) );
+      parentPID = WinProcess.getPID( process );
+      winProcess = new WinProcess( parentPID );
       childProcessPIDs = winProcess.killChildProcesses();
+
+      for (String childPID : childProcessPIDs.split(" ")) {
+			Assert.assertFalse( isChildProcessAlive( parentPID, childPID ) );
+	  }
+
+      //Assert.assertEquals( "", childProcessPIDs );
+      //Assert.assertTrue( childProcessPIDs.isEmpty() );
     } catch ( IOException e ) {
       e.printStackTrace();
     } finally {
       process.destroy();
     }
-    Assert.assertEquals( childProcessPIDs, "" );
-    Assert.assertTrue( childProcessPIDs.isEmpty() );
-    Assert.assertFalse( process.isAlive() );
   }
 
   @Test
   public void killExistingChildProcess() {
 
     int parentPID;
-    boolean isChildProcessExists;
+    boolean doesChildProcessExist;
     WinProcess winProcess;
     String childProcessPIDs = " ";
     String pattern = "child process started";
@@ -196,17 +202,18 @@ public class WinProcessTest {
       parentPID = WinProcess.getPID( proc );
       winProcess = new WinProcess( parentPID );
       childProcessPIDs = winProcess.killChildProcesses();
-      isChildProcessExists = isChildProcessAlive( parentPID, childProcessPIDs );
 
-      if ( isChildProcessExists ) {
-        winProcess = new WinProcess( new Integer( childProcessPIDs ) );
-        winProcess.terminate();
-      }
+      for ( String childPID : childProcessPIDs.split(" ") ) {
+		  if ( isChildProcessAlive( parentPID, childPID ) ) {
+			  winProcess = new WinProcess( new Integer( childPID ) );
+			  winProcess.terminate();
+		  }
 
-      Assert.assertNotEquals( childProcessPIDs, "" );
-      Assert.assertTrue( new Integer( childProcessPIDs ) > 0 );
-      Assert.assertFalse( childProcessPIDs.isEmpty() );
-      Assert.assertFalse( isChildProcessExists );
+		  Assert.assertNotEquals( childPID, "" );
+		  Assert.assertTrue( new Integer( childPID ) > 0 );
+		  Assert.assertFalse( childPID.isEmpty() );
+		  Assert.assertFalse( isChildProcessAlive( parentPID, childPID ) );
+	  }
 
       proc.getErrorStream().close();
       proc.getInputStream().close();

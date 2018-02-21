@@ -1,0 +1,127 @@
+2018/02/21 00:52:03 - target/pigTest/pigTest.kjb 2018/02/21 00:52:03 - Connecting to hadoop file system at: file:///
+2018/02/21 00:52:03 - target/pigTest/pigTest.kjb 2018/02/21 00:52:03 - Function org.apache.pig.tutorial.NonURLDetector() will be called with following argument types: {chararray}. If you want to use different input argument types, please use explicit casts.
+2018/02/21 00:52:03 - target/pigTest/pigTest.kjb 2018/02/21 00:52:03 - bytearray is implicitly cast to bytearray under LOUserFunc Operator
+2018/02/21 00:52:03 - target/pigTest/pigTest.kjb 2018/02/21 00:52:03 - Function org.apache.pig.tutorial.ToLower() will be called with following argument types: {chararray}. If you want to use different input argument types, please use explicit casts.
+2018/02/21 00:52:03 - target/pigTest/pigTest.kjb 2018/02/21 00:52:03 - bytearray is implicitly cast to bytearray under LOUserFunc Operator
+2018/02/21 00:52:03 - target/pigTest/pigTest.kjb 2018/02/21 00:52:03 - Function org.apache.pig.tutorial.ExtractHour() will be called with following argument types: {chararray}. If you want to use different input argument types, please use explicit casts.
+2018/02/21 00:52:03 - target/pigTest/pigTest.kjb 2018/02/21 00:52:03 - bytearray is implicitly cast to bytearray under LOUserFunc Operator
+2018/02/21 00:52:03 - target/pigTest/pigTest.kjb 2018/02/21 00:52:03 - Function org.apache.pig.tutorial.NonURLDetector() will be called with following argument types: {chararray}. If you want to use different input argument types, please use explicit casts.
+2018/02/21 00:52:03 - target/pigTest/pigTest.kjb 2018/02/21 00:52:03 - bytearray is implicitly cast to bytearray under LOUserFunc Operator
+2018/02/21 00:52:03 - target/pigTest/pigTest.kjb 2018/02/21 00:52:03 - Function org.apache.pig.tutorial.ToLower() will be called with following argument types: {chararray}. If you want to use different input argument types, please use explicit casts.
+2018/02/21 00:52:03 - target/pigTest/pigTest.kjb 2018/02/21 00:52:03 - bytearray is implicitly cast to bytearray under LOUserFunc Operator
+2018/02/21 00:52:03 - target/pigTest/pigTest.kjb 2018/02/21 00:52:03 - Function org.apache.pig.tutorial.ExtractHour() will be called with following argument types: {chararray}. If you want to use different input argument types, please use explicit casts.
+2018/02/21 00:52:03 - target/pigTest/pigTest.kjb 2018/02/21 00:52:03 - bytearray is implicitly cast to bytearray under LOUserFunc Operator
+2018/02/21 00:52:03 - target/pigTest/pigTest.kjb 2018/02/21 00:52:03 - Function org.apache.pig.tutorial.NonURLDetector() will be called with following argument types: {chararray}. If you want to use different input argument types, please use explicit casts.
+2018/02/21 00:52:03 - target/pigTest/pigTest.kjb 2018/02/21 00:52:03 - bytearray is implicitly cast to bytearray under LOUserFunc Operator
+2018/02/21 00:52:03 - target/pigTest/pigTest.kjb 2018/02/21 00:52:03 - Function org.apache.pig.tutorial.ToLower() will be called with following argument types: {chararray}. If you want to use different input argument types, please use explicit casts.
+2018/02/21 00:52:03 - target/pigTest/pigTest.kjb 2018/02/21 00:52:03 - bytearray is implicitly cast to bytearray under LOUserFunc Operator
+2018/02/21 00:52:03 - target/pigTest/pigTest.kjb 2018/02/21 00:52:03 - Function org.apache.pig.tutorial.ExtractHour() will be called with following argument types: {chararray}. If you want to use different input argument types, please use explicit casts.
+2018/02/21 00:52:03 - target/pigTest/pigTest.kjb 2018/02/21 00:52:03 - bytearray is implicitly cast to bytearray under LOUserFunc Operator
+2018/02/21 00:52:03 - target/pigTest/pigTest.kjb 2018/02/21 00:52:03 - Function org.apache.pig.tutorial.NonURLDetector() will be called with following argument types: {chararray}. If you want to use different input argument types, please use explicit casts.
+2018/02/21 00:52:03 - target/pigTest/pigTest.kjb 2018/02/21 00:52:03 - bytearray is implicitly cast to bytearray under LOUserFunc Operator
+2018/02/21 00:52:03 - target/pigTest/pigTest.kjb 2018/02/21 00:52:03 - Function org.apache.pig.tutorial.ToLower() will be called with following argument types: {chararray}. If you want to use different input argument types, please use explicit casts.
+2018/02/21 00:52:03 - target/pigTest/pigTest.kjb 2018/02/21 00:52:03 - bytearray is implicitly cast to bytearray under LOUserFunc Operator
+2018/02/21 00:52:03 - target/pigTest/pigTest.kjb 2018/02/21 00:52:03 - Function org.apache.pig.tutorial.ExtractHour() will be called with following argument types: {chararray}. If you want to use different input argument types, please use explicit casts.
+2018/02/21 00:52:03 - target/pigTest/pigTest.kjb 2018/02/21 00:52:03 - bytearray is implicitly cast to bytearray under LOUserFunc Operator
+2018/02/21 00:52:03 - target/pigTest/pigTest.kjb 2018/02/21 00:52:03 - Pig features used in the script: GROUP_BY,ORDER_BY,DISTINCT,FILTER
+2018/02/21 00:52:03 - target/pigTest/pigTest.kjb 2018/02/21 00:52:03 - pig.usenewlogicalplan is set to true. New logical plan will be used.
+2018/02/21 00:52:04 - target/pigTest/pigTest.kjb 2018/02/21 00:52:04 - (Name: ordered_uniq_frequency: Store(file:///C:/Users/bwebb/Projects/big-data-plugin/kettle-plugins/pig/target/pigTest/bin/test/pig/script1-local-results.txt:PigStorage) - scope-71 Operator Key: scope-71)
+2018/02/21 00:52:04 - target/pigTest/pigTest.kjb 2018/02/21 00:52:04 - File concatenation threshold: 100 optimistic? false
+2018/02/21 00:52:04 - target/pigTest/pigTest.kjb 2018/02/21 00:52:04 - Choosing to move algebraic foreach to combiner
+2018/02/21 00:52:04 - target/pigTest/pigTest.kjb 2018/02/21 00:52:04 - MR plan size before optimization: 5
+2018/02/21 00:52:04 - target/pigTest/pigTest.kjb 2018/02/21 00:52:04 - MR plan size after optimization: 5
+2018/02/21 00:52:04 - target/pigTest/pigTest.kjb 2018/02/21 00:52:04 - Pig script settings are added to the job
+2018/02/21 00:52:04 - target/pigTest/pigTest.kjb 2018/02/21 00:52:04 - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2018/02/21 00:52:05 - target/pigTest/pigTest.kjb 2018/02/21 00:52:05 - Setting up single store job
+2018/02/21 00:52:05 - target/pigTest/pigTest.kjb 2018/02/21 00:52:05 - Setting identity combiner class.
+2018/02/21 00:52:05 - target/pigTest/pigTest.kjb 2018/02/21 00:52:05 - BytesPerReducer=1000000000 maxReducers=999 totalInputFileSize=208348
+2018/02/21 00:52:05 - target/pigTest/pigTest.kjb 2018/02/21 00:52:05 - Neither PARALLEL nor default parallelism is set for this job. Setting number of reducers to 1
+2018/02/21 00:52:05 - target/pigTest/pigTest.kjb 2018/02/21 00:52:05 - 1 map-reduce job(s) waiting for submission.
+2018/02/21 00:52:05 - target/pigTest/pigTest.kjb 2018/02/21 00:52:05 - Total input paths to process : 1
+2018/02/21 00:52:05 - target/pigTest/pigTest.kjb 2018/02/21 00:52:05 - Total input paths (combined) to process : 1
+2018/02/21 00:52:05 - target/pigTest/pigTest.kjb 2018/02/21 00:52:05 - Total input paths to process : 1
+2018/02/21 00:52:05 - target/pigTest/pigTest.kjb 2018/02/21 00:52:05 - Total input paths (combined) to process : 1
+2018/02/21 00:52:05 - target/pigTest/pigTest.kjb 2018/02/21 00:52:05 - HadoopJobId: job_local_0001
+2018/02/21 00:52:05 - target/pigTest/pigTest.kjb 2018/02/21 00:52:05 - 0% complete
+2018/02/21 00:52:10 - target/pigTest/pigTest.kjb 2018/02/21 00:52:10 - 20% complete
+2018/02/21 00:52:10 - target/pigTest/pigTest.kjb 2018/02/21 00:52:10 - Failed to get RunningJob for job job_local_0001
+2018/02/21 00:52:10 - target/pigTest/pigTest.kjb 2018/02/21 00:52:10 - Pig script settings are added to the job
+2018/02/21 00:52:10 - target/pigTest/pigTest.kjb 2018/02/21 00:52:10 - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2018/02/21 00:52:11 - target/pigTest/pigTest.kjb 2018/02/21 00:52:11 - Setting up single store job
+2018/02/21 00:52:11 - target/pigTest/pigTest.kjb 2018/02/21 00:52:11 - BytesPerReducer=1000000000 maxReducers=999 totalInputFileSize=263342
+2018/02/21 00:52:11 - target/pigTest/pigTest.kjb 2018/02/21 00:52:11 - Neither PARALLEL nor default parallelism is set for this job. Setting number of reducers to 1
+2018/02/21 00:52:11 - target/pigTest/pigTest.kjb 2018/02/21 00:52:11 - 1 map-reduce job(s) waiting for submission.
+2018/02/21 00:52:11 - target/pigTest/pigTest.kjb 2018/02/21 00:52:11 - Total input paths to process : 1
+2018/02/21 00:52:11 - target/pigTest/pigTest.kjb 2018/02/21 00:52:11 - Total input paths (combined) to process : 1
+2018/02/21 00:52:11 - target/pigTest/pigTest.kjb 2018/02/21 00:52:11 - Total input paths to process : 1
+2018/02/21 00:52:11 - target/pigTest/pigTest.kjb 2018/02/21 00:52:11 - Total input paths (combined) to process : 1
+2018/02/21 00:52:11 - target/pigTest/pigTest.kjb 2018/02/21 00:52:11 - HadoopJobId: job_local_0002
+2018/02/21 00:52:16 - target/pigTest/pigTest.kjb 2018/02/21 00:52:16 - 40% complete
+2018/02/21 00:52:16 - target/pigTest/pigTest.kjb 2018/02/21 00:52:16 - Failed to get RunningJob for job job_local_0002
+2018/02/21 00:52:16 - target/pigTest/pigTest.kjb 2018/02/21 00:52:16 - Pig script settings are added to the job
+2018/02/21 00:52:16 - target/pigTest/pigTest.kjb 2018/02/21 00:52:16 - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2018/02/21 00:52:17 - target/pigTest/pigTest.kjb 2018/02/21 00:52:17 - Setting up single store job
+2018/02/21 00:52:17 - target/pigTest/pigTest.kjb 2018/02/21 00:52:17 - BytesPerReducer=1000000000 maxReducers=999 totalInputFileSize=198295
+2018/02/21 00:52:17 - target/pigTest/pigTest.kjb 2018/02/21 00:52:17 - Neither PARALLEL nor default parallelism is set for this job. Setting number of reducers to 1
+2018/02/21 00:52:17 - target/pigTest/pigTest.kjb 2018/02/21 00:52:17 - 1 map-reduce job(s) waiting for submission.
+2018/02/21 00:52:17 - target/pigTest/pigTest.kjb 2018/02/21 00:52:17 - Total input paths to process : 1
+2018/02/21 00:52:17 - target/pigTest/pigTest.kjb 2018/02/21 00:52:17 - Total input paths (combined) to process : 1
+2018/02/21 00:52:18 - target/pigTest/pigTest.kjb 2018/02/21 00:52:18 - Total input paths to process : 1
+2018/02/21 00:52:18 - target/pigTest/pigTest.kjb 2018/02/21 00:52:18 - Total input paths (combined) to process : 1
+2018/02/21 00:52:18 - target/pigTest/pigTest.kjb 2018/02/21 00:52:18 - HadoopJobId: job_local_0003
+2018/02/21 00:52:23 - target/pigTest/pigTest.kjb 2018/02/21 00:52:23 - 60% complete
+2018/02/21 00:52:23 - target/pigTest/pigTest.kjb 2018/02/21 00:52:23 - Failed to get RunningJob for job job_local_0003
+2018/02/21 00:52:23 - target/pigTest/pigTest.kjb 2018/02/21 00:52:23 - Pig script settings are added to the job
+2018/02/21 00:52:23 - target/pigTest/pigTest.kjb 2018/02/21 00:52:23 - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2018/02/21 00:52:23 - target/pigTest/pigTest.kjb 2018/02/21 00:52:23 - Setting up single store job
+2018/02/21 00:52:23 - target/pigTest/pigTest.kjb 2018/02/21 00:52:23 - 1 map-reduce job(s) waiting for submission.
+2018/02/21 00:52:24 - target/pigTest/pigTest.kjb 2018/02/21 00:52:24 - Total input paths to process : 1
+2018/02/21 00:52:24 - target/pigTest/pigTest.kjb 2018/02/21 00:52:24 - Total input paths (combined) to process : 1
+2018/02/21 00:52:24 - target/pigTest/pigTest.kjb 2018/02/21 00:52:24 - Total input paths to process : 1
+2018/02/21 00:52:24 - target/pigTest/pigTest.kjb 2018/02/21 00:52:24 - Total input paths (combined) to process : 1
+2018/02/21 00:52:24 - target/pigTest/pigTest.kjb 2018/02/21 00:52:24 - HadoopJobId: job_local_0004
+2018/02/21 00:52:29 - target/pigTest/pigTest.kjb 2018/02/21 00:52:29 - 80% complete
+2018/02/21 00:52:29 - target/pigTest/pigTest.kjb 2018/02/21 00:52:29 - Failed to get RunningJob for job job_local_0004
+2018/02/21 00:52:29 - target/pigTest/pigTest.kjb 2018/02/21 00:52:29 - Pig script settings are added to the job
+2018/02/21 00:52:29 - target/pigTest/pigTest.kjb 2018/02/21 00:52:29 - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2018/02/21 00:52:30 - target/pigTest/pigTest.kjb 2018/02/21 00:52:30 - Setting up single store job
+2018/02/21 00:52:30 - target/pigTest/pigTest.kjb 2018/02/21 00:52:30 - 1 map-reduce job(s) waiting for submission.
+2018/02/21 00:52:30 - target/pigTest/pigTest.kjb 2018/02/21 00:52:30 - Total input paths to process : 1
+2018/02/21 00:52:30 - target/pigTest/pigTest.kjb 2018/02/21 00:52:30 - Total input paths (combined) to process : 1
+2018/02/21 00:52:30 - target/pigTest/pigTest.kjb 2018/02/21 00:52:30 - Total input paths to process : 1
+2018/02/21 00:52:30 - target/pigTest/pigTest.kjb 2018/02/21 00:52:30 - Total input paths (combined) to process : 1
+2018/02/21 00:52:30 - target/pigTest/pigTest.kjb 2018/02/21 00:52:30 - Total input paths to process : 1
+2018/02/21 00:52:30 - target/pigTest/pigTest.kjb 2018/02/21 00:52:30 - HadoopJobId: job_local_0005
+2018/02/21 00:52:35 - target/pigTest/pigTest.kjb 2018/02/21 00:52:35 - Failed to get RunningJob for job job_local_0005
+2018/02/21 00:52:35 - target/pigTest/pigTest.kjb 2018/02/21 00:52:35 - 100% complete
+2018/02/21 00:52:35 - target/pigTest/pigTest.kjb 2018/02/21 00:52:35 - Detected Local mode. Stats reported below may be incomplete
+2018/02/21 00:52:35 - target/pigTest/pigTest.kjb 2018/02/21 00:52:35 - Script Statistics: 
+
+HadoopVersion	PigVersion	UserId	StartedAt	FinishedAt	Features
+0.20.2	0.8.1	bwebb	2018-02-21 00:52:04	2018-02-21 00:52:35	GROUP_BY,ORDER_BY,DISTINCT,FILTER
+
+Success!
+
+Job Stats (time in seconds):
+JobId	Alias	Feature	Outputs
+job_local_0001	clean1,clean2,houred,ngramed1,raw	DISTINCT	
+job_local_0002	hour_frequency1,hour_frequency2	GROUP_BY,COMBINER	
+job_local_0003	filtered_uniq_frequency,uniq_frequency1,uniq_frequency2,uniq_frequency3	GROUP_BY	
+job_local_0004	ordered_uniq_frequency	SAMPLER	
+job_local_0005	ordered_uniq_frequency	ORDER_BY	file:///C:/Users/bwebb/Projects/big-data-plugin/kettle-plugins/pig/target/pigTest/bin/test/pig/script1-local-results.txt,
+
+Input(s):
+Successfully read records from: "file:///C:/Users/bwebb/Projects/big-data-plugin/kettle-plugins/pig/target/pigTest/excite-small.log"
+
+Output(s):
+Successfully stored records in: "file:///C:/Users/bwebb/Projects/big-data-plugin/kettle-plugins/pig/target/pigTest/bin/test/pig/script1-local-results.txt"
+
+Job DAG:
+job_local_0001	->	job_local_0002,
+job_local_0002	->	job_local_0003,
+job_local_0003	->	job_local_0004,
+job_local_0004	->	job_local_0005,
+job_local_0005
+
+
+2018/02/21 00:52:35 - target/pigTest/pigTest.kjb 2018/02/21 00:52:35 - Success!
